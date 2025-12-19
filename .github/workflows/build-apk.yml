@@ -25,9 +25,9 @@ jobs:
       - name: Grant execute permission to gradlew
         run: chmod +x ./gradlew
 
-      # 4️⃣ Clean build cache
-      - name: Clean Build Cache
-        run: ./gradlew cleanBuildCache
+      # 4️⃣ Clean build
+      - name: Clean Build
+        run: ./gradlew clean
 
       # 5️⃣ Build Debug APK
       - name: Build Debug APK
