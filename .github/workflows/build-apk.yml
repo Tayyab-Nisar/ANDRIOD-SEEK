@@ -1,3 +1,4 @@
+
 name: Build APK
 
 on:
@@ -18,7 +19,7 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Grant execute permission
+      - name: Grant execute permission to gradlew
         run: chmod +x gradlew
 
       - name: Build Debug APK
