@@ -23,7 +23,7 @@ jobs:
 
       # 3️⃣ Grant execute permissions for Gradle wrapper
       - name: Grant execute permission to gradlew
-        run: chmod +x ./ANDRIOD-SEEK/gradlew
+        run: chmod +x ./gradlew
 
       # 4️⃣ Build Debug APK
       - name: Build Debug APK
