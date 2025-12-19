@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6743d21487a5166c35be6ce41b5585f8a5eec503
 name: Build APK
 
 on:
@@ -19,7 +22,11 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
+<<<<<<< HEAD
       - name: Grant execute permission to gradlew
+=======
+      - name: Grant execute permission
+>>>>>>> 6743d21487a5166c35be6ce41b5585f8a5eec503
         run: chmod +x gradlew
 
       - name: Build Debug APK
