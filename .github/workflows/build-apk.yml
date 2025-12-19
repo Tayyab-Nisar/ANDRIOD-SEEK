@@ -11,6 +11,12 @@ jobs:
 
     steps:
       # 1️⃣ Checkout the repository
+      - name: clean
+        run: ./gradlew cleanBuildCache
+        
+      - name: clean2
+        run: clean
+        
       - name: Checkout code
         uses: actions/checkout@v4
 
